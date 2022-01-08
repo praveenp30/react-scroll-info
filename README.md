@@ -55,7 +55,7 @@ function Demo() {
         isPageTop: ${isPageTop}
         isScrolledDown: ${isScrolledDown}
         isScrolledUp: ${isScrolledUp}
-        scrolledPosition: ${scrolledPosition}`
+        scrolledPosition: ${scrolledPosition}
         documentHeight: ${documentHeight}`
     }
     </div>
