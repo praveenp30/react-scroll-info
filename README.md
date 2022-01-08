@@ -1,7 +1,6 @@
 # react-scroll-info(useScrollInfo)
 
-![npm bundle size (version)][minzipped-badge]
-[![npm version][npm-badge]][npm-version]
+[![NPM](https://nodei.co/npm/react-scroll-info.png)](https://nodei.co/npm/react-scroll-info/)
 
 A custom hook for creating to access the scroll info while user scrolling on page in react components.
 

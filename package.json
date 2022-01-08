@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,12 @@
     "scroll info react",
     "scrolled position react",
     "detect page bottom react",
-    "detect page top rect",
+    "detect page top react",
     "react hook scroll",
     "react hook scroll postion",
     "react scroll detect hook",
-    "react scroll utill"
+    "react scroll utill",
+    "react scroll direction"
   ],
   "author": "Praveen Punniyamoorthi",
   "license": "MIT",
