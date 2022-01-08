@@ -6,7 +6,7 @@ A custom hook for creating to access the scroll info while user scrolling on pag
 
 ## Features
 
-- You control the UI - `useScrollInfo` provides the necessary info like isPageTop, isPageBottom, isScrolledUp, isScrolledDown, scrolledPosition.
+- You control the UI - `useScrollInfo` provides the necessary info like isPageTop, isPageBottom, isScrolledUp, isScrolledDown, scrolledPosition, documentHeight
 
 - Written in Vanilla Javascript
 
@@ -14,7 +14,7 @@ A custom hook for creating to access the scroll info while user scrolling on pag
 
 ## Demo
 
-[CodeSandbox demo](https://316pc.csb.app/)
+[CodeSandbox Demo](https://316pc.csb.app/)
 
 ## Installation
 
@@ -28,7 +28,7 @@ $ yarn add react-scroll-info
 
 ```js
 import React, { useEffect } from 'react'
-import useCollapse from 'react-scroll-info'
+import useScrollInfo from 'react-scroll-info'
 function Demo() {
  const {
     isPageBottom,
@@ -48,7 +48,7 @@ function Demo() {
   return (
     <div>
     <button>
-        {isScrolledDown ? 'Down' : 'Up'}
+        {isScrolledDown ? 'Up' : 'Down'}
     </button>
     {
         `isPageBottom: ${isPageBottom}
@@ -62,11 +62,11 @@ function Demo() {
   )
 }
 ```
-## `Detect page bottom before some pixels`
+## `Detect Page Bottom Before Some Pixels`
 
 ```js
 import React, { useEffect } from 'react'
-import useCollapse from 'react-scroll-info'
+import useScrollInfo from 'react-scroll-info'
 function Demo() {
  const {
     isPageBottom,
@@ -86,7 +86,7 @@ function Demo() {
   return (
     <div>
     <button>
-        {isScrolledDown ? 'Down' : 'Up'}
+        {isScrolledDown ? 'Up' : 'Down'}
     </button>
     </div>
   )
@@ -107,9 +107,9 @@ The following are optional properties passed into `useScrollInfo()`:
 
 | Name             | Description                                                                                                 |
 | ---------------- | ----------------------------------------------------------------------------------------------------------- |
-| isPageBottom | User reached bottom of the page it returns true - Boolean                       |
-| isPageBottom   | User reached top of the page it returns true - Boolean              |
-| isScrolledUp       | User scrolling Up it returns true -    Boolean                                  |
-| isScrolledDown      | User scrolling Down it returns true -    Boolean                                                          |
+| isPageBottom | Reached bottom of the page it returns true - Boolean                       |
+| isPageBottom   | Reached top of the page it returns true - Boolean              |
+| isScrolledUp       | Scrolling Up it returns true -    Boolean                                  |
+| isScrolledDown      | Scrolling Down it returns true -    Boolean                                                          |
 | scrolledPosition      | Current scrolled position - Number
 | documentHeight      | Document(page) Height - Number
