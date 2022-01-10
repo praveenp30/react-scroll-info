@@ -2,6 +2,8 @@
 
 [![NPM](https://nodei.co/npm/react-scroll-info.png)](https://nodei.co/npm/react-scroll-info/)
 
+[![npm version](https://badge.fury.io/js/react-scroll-info.svg)](https://badge.fury.io/js/react-scroll-info)
+
 A custom hook for creating to access the scroll info while user scrolling on page in react components.
 
 ## Features
@@ -108,7 +110,7 @@ The following are optional properties passed into `useScrollInfo()`:
 | Name             | Description                                                                                                 |
 | ---------------- | ----------------------------------------------------------------------------------------------------------- |
 | isPageBottom | Reached bottom of the page it returns true - Boolean                       |
-| isPageBottom   | Reached top of the page it returns true - Boolean              |
+| isPageTop   | Reached top of the page it returns true - Boolean              |
 | isScrolledUp       | Scrolling Up it returns true -    Boolean                                  |
 | isScrolledDown      | Scrolling Down it returns true -    Boolean                                                          |
 | scrolledPosition      | Current scrolled position - Number

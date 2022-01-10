@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package returns page scroll info like isPageTop, isPageBottom, isScrolledUp, isScrolledDown, scrolledPosition.",
   "main": "lib/index.js",
   "scripts": {
